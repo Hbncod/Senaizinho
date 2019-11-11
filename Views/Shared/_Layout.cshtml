@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SenaiZinho</title>
+    <link href="~/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href='@Url.Action("Sala", "Cadastro")'>Cadastrar Sala </a></li>
+            <li><a href='@Url.Action("Aluno", "Cadastro")'>Cadastrar Aluno</a></li>
+        </ul>
+    </div>
+
+            @RenderBody()
+
+    <div id="rodape">
+        <ul>
+            <li>Rua alameda sla uq</li>
+            <li>N°156</li>
+            <li>Tel. (11) 91234 5678</li>
+
+
+        </ul>
+    </div>
+</body>
+</html>
